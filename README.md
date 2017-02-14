@@ -1,19 +1,17 @@
 # LINDAT/CLARIN Common Theme
 
-[![Build Status](https://travis-ci.org/ufal/lindat-common.svg?branch=master)](https://travis-ci.org/ufal/lindat-common)
-[![Dependency Status](https://gemnasium.com/ufal/lindat-common.svg)](https://gemnasium.com/ufal/lindat-common)
-
-Files common for all Lindat projects. The repository has been migrated from [UFAL Redmine](https://redmine.ms.mff.cuni.cz/projects/lindat-common). Here is short description on how to use Lindat Common Theme, for more detailed info see [Redmine wiki](https://redmine.ms.mff.cuni.cz/projects/lindat-common/wiki). 
+[![Build Status](https://travis-ci.org/commul/lindat-common.svg?branch=master)](https://travis-ci.org/commul/lindat-common)
+[![UFAL Dependency Status](https://gemnasium.com/ufal/lindat-common.svg)](https://gemnasium.com/ufal/lindat-common)
 
 ## What is in the repository
 
-The project requires build so the repository contains branches with pre build versions of the Common Theme. The build happens automatically by [Travis CI](https://travis-ci.org/ufal/lindat-common).
+The project requires build so the repository contains branches with pre build versions of the Common Theme. The build happens automatically by [Travis CI](https://travis-ci.org/commul/lindat-common).
 
-- [Production build branch](https://github.com/ufal/lindat-common/tree/releases)
+- [Production build branch](https://github.com/commul/lindat-common/tree/releases)
 
   Every time the commit is tagged it is considered a production release and a new build is committed to `releases` branch.
   
-- [Latest build branch](https://github.com/ufal/lindat-common/tree/edge)
+- [Latest build branch](https://github.com/commul/lindat-common/tree/edge)
 
   Every push to `master` branch is build to `edge` branch.
 
@@ -26,7 +24,7 @@ You can get common theme to your project in several ways:
 You can always opt-in for latest build by using `edge` branch instead of `releases` branch.
 
 ```.bash
-git submodule add -b releases https://github.com/ufal/lindat-common.git lindat-common
+git submodule add -b releases https://github.com/commul/lindat-common.git lindat-common
 git submodule init
 git submodule update
 ```
@@ -42,12 +40,12 @@ Please note:
 
 ### 2. Using releases here on Github
 
-Go [here](https://github.com/ufal/lindat-common/releases) and download the latest release or use command line:
+Go [here](https://github.com/commul/lindat-common/releases) and download the latest release or use command line:
 
 ```.bash
 mkdir lindat-common
 cd lindat-common
-REPO="https://github.com/ufal/lindat-common"
+REPO="https://github.com/commul/lindat-common"
 TAG=`git ls-remote --tags $REPO | grep -v '\^{}' | sed -e 's/.*refs\/tags\/\(.*\)/\1/p' | sort -Vk2 | tail -n1`
 curl -L "$REPO/releases/download/$TAG/dist.tar.gz" | tar -xz
 ```
@@ -107,7 +105,7 @@ lindat-common is occasionally updated, you can follow these updated automaticall
 
 - Clone the repository
         
-        git clone https://github.com/ufal/lindat-common.git
+        git clone https://github.com/commul/lindat-common.git
         cd lindat-common
 
 - Install NodeJS environment (unless you already have one)
