@@ -24,7 +24,7 @@ var config = {
   VERSION: require('./package.json').version,
 
   GA_TRACKING_CODE: 'UA-27008245-2',
-  PIWIK_URL: '//ufal.mff.cuni.cz/piwik/', // include trailing slash
+  PIWIK_URL: '//commul.eurac.edu/piwik/', // include trailing slash
   REST_API: 'https://lindat.mff.cuni.cz/repository/rest',
   DEV_REST_API: 'https://ufal-point-dev.ms.mff.cuni.cz/repository/rest'
 };
