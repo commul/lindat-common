@@ -12,6 +12,9 @@ run:
 				@echo "**************************************************"
 				@npm start
 
+commul-release:
+				@./node_modules/.bin/mversion v1.4.2-a
+
 release:
 				@./node_modules/.bin/mversion patch
 
