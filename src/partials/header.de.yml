@@ -6,13 +6,13 @@ menu:
   text: CLARIN-IT
 - href: 'http://www.eurac.edu/linguistics/'
   id: lindat-home-item
-  text: Úvod
-- href: 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=cs'
+  text: Startseite
+- href: 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=de'
   id: lindat-repository-item
-  text: Repozitář
-- href: 'https://lindat.mff.cuni.cz/cs/o-lindat-clarin'
+  text: Repository
+- href: 'https://lindat.mff.cuni.cz/en/about-lindat-clarin'
   id: lindat-about-item
-  text: O nás
+  text: Über
 - href: 'http://www.clarin.eu'
   class: 'clarin-logo'
   id: lindat-clarin-menu

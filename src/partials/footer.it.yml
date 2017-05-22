@@ -1,12 +1,12 @@
 ---
 column1:
-  header: "Partneři, koordinace, financování"
+  header: "Partners, Coordination, Funding"
   items:
   - 'http://www.eurac.edu/en': "Eurac Research"
-  - 'http://www.provinz.bz.it/innovation-forschung/innovation-forschung-universitaet/default.asp': "Autonomous Province of Bozen/Bolzano, South Tyrol, Department for the Promotion of Education, Universities and Research" 
+  - 'http://www.provincia.bz.it/innovazione-ricerca/innovazione-ricerca-universita/default.asp': "Provincia Autonoma Di Bolzano Alto Adige, Dipartimento della Innovazione, ricerca e università" 
   - 'http://www.istruzione.it/': "Italian Ministry of Education, University and Research"
 column2:
-  header: "Repozitář"
+  header: "Repository"
   items:
   - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=en': "Main page"
   - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "Contact"
@@ -14,7 +14,7 @@ column2:
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=en': "About and Policies"
 column3:
-  header: "Více"
+  header: "More"
   items:
   - 'http://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
