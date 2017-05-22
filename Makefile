@@ -1,5 +1,7 @@
 .PHONY: build
 
+VERSION=$(shell perl adjust-commul-version.pl)
+
 build:
 				@npm run build
 
@@ -13,7 +15,7 @@ run:
 				@npm start
 
 commul-release:
-				@./node_modules/.bin/mversion v1.4.2-a
+				@./node_modules/.bin/mversion $(VERSION)
 
 release:
 				@./node_modules/.bin/mversion patch
