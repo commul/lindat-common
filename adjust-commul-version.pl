@@ -3,7 +3,6 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use v5.14;
 
 use lib qw(..);
 
@@ -24,6 +23,20 @@ my $data = $json->decode($json_text);
 # print Dumper $data;
 my %hash = %{$data};
 
-print "v".$hash{version};
+my $current_version = $hash{version};
 
-# my $current_version = $ARGV[0];
+my $new_version;
+
+if ($current_version =~ /[a-z]$/) # already commul style
+{
+#	my $old_letter;
+	(my $letter, $current_version) = ( substr($current_version,-1,1), substr($current_version,0,-1));
+	$letter++;
+	$new_version = $current_version . $letter; 	
+}
+else
+{
+	$new_version = $current_version . "-a";
+}
+
+print "v".$new_version;
