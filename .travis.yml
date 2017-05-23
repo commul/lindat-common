@@ -7,8 +7,6 @@ branches:
   - releases
   - gh-pages
   - no-tracking-release
-addons:
-  sauce_connect: false
 before_deploy: bash ./ci/build_release.sh
 deploy:
 - provider: releases
