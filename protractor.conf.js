@@ -33,8 +33,8 @@ var config = {
 };
 
 if (process.env.TRAVIS) {
-  config.sauceUser = process.env.SAUCE_USERNAME;
-  config.sauceKey = process.env.SAUCE_ACCESS_KEY;
+//  config.sauceUser = process.env.SAUCE_USERNAME;
+//  config.sauceKey = process.env.SAUCE_ACCESS_KEY;
   config.multiCapabilities = [{
     browserName: 'internet explorer',
     'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
