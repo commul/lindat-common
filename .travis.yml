@@ -6,8 +6,6 @@ branches:
   - edge
   - releases
   - gh-pages
-addons:
-  sauce_connect: false
 before_deploy: bash ./ci/build_release.sh
 deploy:
 - provider: releases
