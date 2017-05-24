@@ -72,7 +72,7 @@ module.exports = function (options) {
 
   // Generates files for all partials and combinations
   // Header and footer in standalone and not and in English, Czech and default English :)
-  var partialsPlugins = cartesianProduct([['header', 'footer'], [false, true], [false, 'en', 'cs']])
+  var partialsPlugins = cartesianProduct([['header', 'footer'], [false, true], [false, 'en', 'it', 'de']])
     .map(function (args) {
       return generatePartial(args[0], args[1], args[2]);
     });

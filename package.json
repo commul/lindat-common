@@ -18,6 +18,7 @@
     "url": "https://github.com/commul/lindat-common.git"
   },
   "authors": [
+    "Alexander König <alexander.koenig@eurac.edu>",
     "Egon W. Stemle <egon.stemle@eurac.edu>",
     "Amir Kamran <kamran@ufal.mff.cuni.cz >",
     "Ondřej Košarko <kosarko@ufal.mff.cuni.cz>",
