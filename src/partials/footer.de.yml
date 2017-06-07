@@ -8,18 +8,18 @@ column1:
 column2:
   header: "Repository"
   items:
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=en': "Startseite"
-  - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "Kontakt"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=en': "About und Policies"
+  - '/repository/xmlui/?locale-attribute=en': "Startseite"
+  - '/en/about-lindat-clarin': "Kontakt"
+  - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
+  - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
+  - '/repository/xmlui/page/about?locale-attribute=en': "About und Policies"
 column3:
   header: "More"
   items:
   - 'http://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
-  - 'https://lindat.mff.cuni.cz/en/monitoring': "Status"
-  - 'https://lindat.mff.cuni.cz/en/how-do-i-sign-up': "Wie registriere ich mich"
-  - 'https://lindat.mff.cuni.cz/en/terms-of-use': "Nutzungsbedingungen"
+  - '/en/monitoring': "Status"
+  - '/en/how-do-i-sign-up': "Wie registriere ich mich"
+  - '/en/terms-of-use': "Nutzungsbedingungen"
 footer:
 copyright: "Copyright (c) 2017 Eurac Research, Institut für Angewandte Sprachforschung. Alle Rechte vorbehalten."
