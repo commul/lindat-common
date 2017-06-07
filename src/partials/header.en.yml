@@ -7,10 +7,10 @@ menu:
 - href: 'http://www.eurac.edu/linguistics/'
   id: lindat-home-item
   text: Home
-- href: 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=en'
+- href: '/repository/xmlui/?locale-attribute=en'
   id: lindat-repository-item
   text: Repository
-- href: 'https://lindat.mff.cuni.cz/en/about-lindat-clarin'
+- href: '/en/about-lindat-clarin'
   id: lindat-about-item
   text: About
 - href: 'http://www.clarin.eu'
