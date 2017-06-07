@@ -15,6 +15,7 @@ run:
 				@npm start
 
 commul-release:
+				@npm run build
 				@./node_modules/.bin/mversion $(VERSION)
 
 release:
