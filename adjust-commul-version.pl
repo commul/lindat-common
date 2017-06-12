@@ -32,6 +32,7 @@ if ($current_version =~ /[a-z]$/) # already commul style
 #	my $old_letter;
 	(my $letter, $current_version) = ( substr($current_version,-1,1), substr($current_version,0,-1));
 	$letter++;
+	if ($letter eq 'h') { $letter++; } # circumvent the bad behaviour of mversion
 	$new_version = $current_version . $letter; 	
 }
 else
