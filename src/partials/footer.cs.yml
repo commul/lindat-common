@@ -18,8 +18,5 @@ column3:
   items:
   - 'http://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
-  - 'https://lindat.mff.cuni.cz/en/monitoring': "Service Status"
-  - 'https://lindat.mff.cuni.cz/en/how-do-i-sign-up': "How to Sign in"
-  - 'https://lindat.mff.cuni.cz/en/terms-of-use': "Terms of Use"
 footer:
 copyright: "Copyright (c) 2017 Eurac Research, Institute for Applied Linguistics. All rights reserved."

@@ -2,24 +2,21 @@
 column1:
   header: "Partner, Koordination, Finanzierung"
   items:
-  - 'http://www.eurac.edu/en': "Eurac Research"
+  - 'http://www.eurac.edu/de': "Eurac Research"
   - 'http://www.provinz.bz.it/innovation-forschung/innovation-forschung-universitaet/default.asp': "Autonome Provinz Bozen Südtirol, Abteilung für Innovation, Forschung und Universität" 
   - 'http://www.istruzione.it/': "Italienisches Ministerium für Bildung, Universität und Forschung"
 column2:
   header: "Repository"
   items:
   - '/repository/xmlui/?locale-attribute=en': "Startseite"
-  - '/en/about-lindat-clarin': "Kontakt"
   - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
   - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - '/repository/xmlui/page/about?locale-attribute=en': "About und Policies"
+  - 'mailto:corpman@eurac.edu': "Helpdesk"
 column3:
   header: "More"
   items:
   - 'http://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
-  - '/en/monitoring': "Status"
-  - '/en/how-do-i-sign-up': "Wie registriere ich mich"
-  - '/en/terms-of-use': "Nutzungsbedingungen"
 footer:
 copyright: "Copyright (c) 2017 Eurac Research, Institut für Angewandte Sprachforschung. Alle Rechte vorbehalten."
