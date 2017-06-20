@@ -10,7 +10,7 @@ menu:
 - href: '/repository/xmlui/?locale-attribute=de'
   id: lindat-repository-item
   text: Repository
-- href: '/en/about-lindat-clarin'
+- href: '/repository/xmlui/page/about?locale-attribute=de'
   id: lindat-about-item
   text: Über
 - href: 'http://www.clarin.eu'
