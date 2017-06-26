@@ -4,7 +4,7 @@ menu:
   class: clarin-it-logo-menu
   id: lindat-clarin-it-item
   text: CLARIN-IT
-- href: 'http://www.eurac.edu/linguistics/'
+- href: 'http://www.eurac.edu/it/research/autonomies/commul/Pages/default.aspx'
   id: lindat-home-item
   text: Home
 - href: '/repository/xmlui/?locale-attribute=it'
@@ -13,7 +13,7 @@ menu:
 - href: '/repository/xmlui/page/about?locale-attribute=it'
   id: lindat-about-item
   text: About
-- href: 'http://www.clarin.eu'
+- href: 'https://www.clarin.eu'
   class: 'clarin-logo'
   id: lindat-clarin-menu
   text: CLARIN
