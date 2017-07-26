@@ -4,7 +4,7 @@ menu:
   class: clarin-it-logo-menu
   id: lindat-clarin-it-item
   text: CLARIN-IT
-- href: 'http://www.eurac.edu/en/research/autonomies/commul/Pages/default.aspx'
+- href: '/index.html'
   id: lindat-home-item
   text: Home
 - href: '/repository/xmlui/?locale-attribute=en'
