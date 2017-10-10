@@ -4,7 +4,7 @@
   "main": "dist/public/js/angular-lindat.js",
   "description": "Common ComMul Lindat Theme (header and footer)",
   "license": "MIT",
-  "homepage": "https://lindat.eurac.edu/",
+  "homepage": "https://clarin.eurac.edu/",
   "bugs": {
     "url": "https://github.com/commul/lindat-common/issues"
   },
