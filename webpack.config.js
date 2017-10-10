@@ -32,7 +32,7 @@ var config = {
 var options = {
   DEBUG: argv.debug,
   publicPath: argv.debug ?
-    '/' : (argv.pages ? 'https://ufal.github.io/lindat-common/' : 'https://lindat-dev.eurac.edu/repository/xmlui/themes/UFAL/lib/lindat/'),
+    '/' : (argv.pages ? 'https://ufal.github.io/lindat-common/' : 'https://clarin-dev.eurac.edu/repository/xmlui/themes/UFAL/lib/lindat/'),
   config: config,
   root: root,
   src: src,
