@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git://github.com/commul/lindat-common.git"
   },
-  "version": "1.4.2-n",
+  "version": "1.4.2-o",
   "main": [
     "public/js/angular-lindat.js"
   ],
@@ -18,7 +18,7 @@
   ],
   "description": "Common Lindat Theme (header and footer)",
   "license": "MIT",
-  "homepage": "https://lindat.eurac.edu/",
+  "homepage": "https://clarin.eurac.edu/",
   "keywords": [
     "lindat",
     "theme",
