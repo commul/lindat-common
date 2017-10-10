@@ -1,6 +1,6 @@
 {
   "name": "lindat-common",
-  "version": "1.4.2-o",
+  "version": "1.4.2-p",
   "main": "public/js/angular-lindat.js",
   "description": "Common ComMul Lindat Theme (header and footer)",
   "license": "MIT",
