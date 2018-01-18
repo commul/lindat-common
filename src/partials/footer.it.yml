@@ -19,4 +19,4 @@ column3:
   - 'https://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
 footer:
-copyright: "Copyright (c) 2017 Eurac Research, Istituto di linguistica applicata. All rights reserved."
+        copyright: "Copyright (c) 2017 Eurac Research, Istituto di linguistica applicata. All rights reserved.\nBasato di CLARIN DSpace (https://github.com/ufal/clarin-dspace/)"
