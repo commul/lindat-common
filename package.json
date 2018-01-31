@@ -1,6 +1,6 @@
 {
-  "name": "lindat-common",
-  "version": "1.4.2-r",
+  "name": "lindat-common-commul",
+  "version": "1.5.1-a",
   "main": "public/js/angular-lindat.js",
   "description": "Common ComMul Lindat Theme (header and footer)",
   "license": "MIT",
@@ -27,7 +27,8 @@
   ],
   "dependencies": {
     "angular": "^1.4",
-    "jquery": "^2.1.4"
+    "jquery": "^3.x",
+    "clipboard": "~1.6.1"
   },
   "scripts": {
     "clean": "npm run clean-dist && npm run clean-pages",
