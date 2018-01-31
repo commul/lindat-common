@@ -1,10 +1,11 @@
 ---
 column1:
-  header: "Partners, Coordination, Funding"
+  header: "Contact"
   items:
-  - 'http://www.eurac.edu/en': "Eurac Research"
-  - 'http://www.provinz.bz.it/innovation-forschung/innovation-forschung-universitaet/default.asp': "Autonomous Province of Bozen/Bolzano, South Tyrol, Department for the Promotion of Education, Universities and Research" 
-  - 'http://www.istruzione.it/': "Italian Ministry of Education, University and Research"
+  - raw: "Institute for Applied Linguistics, Eurac Research"
+  - raw: "Viale Druso, 1 / Drususallee 1"
+  - raw: "39100 Bolzano / Bozen - Italy"
+  - 'mailto:corpman@eurac.edu': "Email: corpman@eurac.edu"
 column2:
   header: "Repository"
   items:
@@ -16,9 +17,9 @@ column2:
 column3:
   header: "More"
   items:
-  - 'https://www.clarin.eu/': "CLARIN"
-  - 'http://www.clarin-it.it/': "CLARIN-IT"
+  - 'http://www.eurac.edu/en': "Eurac Research"
+  - 'http://www.eurac.edu/linguistics': "Institute for Applied Linguistics"
+  - 'http://www.clarin-it.it': "CLARIN-IT"
+  - 'https://www.clarin.eu/': "CLARIN ERIC"
 footer:
         - "Copyright (c) 2018 Eurac Research, Institute for Applied Linguistics. All rights reserved."
-        - "Based on CLARIN DSpace (https://github.com/ufal/clarin-dspace/)."
-
