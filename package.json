@@ -1,6 +1,6 @@
 {
   "name": "lindat-common-commul",
-  "version": "1.5.1-a",
+  "version": "1.5.1-b",
   "main": "public/js/angular-lindat.js",
   "description": "Common ComMul Lindat Theme (header and footer)",
   "license": "MIT",
@@ -34,8 +34,8 @@
     "clean": "npm run clean-dist && npm run clean-pages",
     "clean-dist": "rm -rf dist dist.*",
     "clean-pages": "rm -rf pages",
-    "init-dist": "mkdir -p public/img && mkdir -p dist/public/fonts",
-    "copy-static": "cp -R ./src/images/* public/img && cp ./src/refbox/fonts/* dist/public/fonts/",
+    "init-dist": "mkdir -p public/img && mkdir -p public/fonts",
+    "copy-static": "cp -R ./src/images/* public/img && cp ./src/refbox/fonts/* public/fonts/",
     "prebuild": "npm run clean-dist && npm run init-dist && npm run copy-static",
     "build": "NODE_ENV=production webpack --devtool source-map",
     "build-pages": "npm run clean-pages && webpack -p --pages --devtool source-map",
