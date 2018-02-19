@@ -368,7 +368,10 @@ body {
 
 // Logo mixin for images in footer
 .footer-logo(@image, @width, @height) {
-  background: url(@image) no-repeat center/100%;
+  background-image: url(@image);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 100%;
   width: @width;
   height: @height;
   display: block;
