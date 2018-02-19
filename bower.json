@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git://github.com/commul/lindat-common.git"
   },
-  "version": "1.5.1-b",
+  "version": "1.5.1-c",
   "main": [
     "dist/public/js/angular-lindat.js"
   ],
