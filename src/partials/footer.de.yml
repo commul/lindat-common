@@ -12,11 +12,11 @@ column2:
   - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
   - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - '/repository/xmlui/page/about?locale-attribute=en': "About und Policies"
-  - 'mailto:corpman@eurac.edu': "Helpdesk"
+  - 'mailto:clarin@eurac.edu': "Helpdesk"
 column3:
   header: "More"
   items:
   - 'https://www.clarin.eu/': "CLARIN"
   - 'http://www.clarin-it.it/': "CLARIN-IT"
 footer:
-        copyright: "Copyright (c) 2017 Eurac Research, Institut für Angewandte Sprachforschung. Alle Rechte vorbehalten.\nBasiert auf CLARIN DSpace (https://github.com/ufal/clarin-dspace/)."
+        copyright: "Copyright (c) 2018 Eurac Research, Institut für Angewandte Sprachforschung. Alle Rechte vorbehalten.\nBasiert auf CLARIN DSpace (https://github.com/ufal/clarin-dspace/)."

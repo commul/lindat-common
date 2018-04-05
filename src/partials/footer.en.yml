@@ -5,7 +5,7 @@ column1:
   - raw: "Institute for Applied Linguistics, Eurac Research"
   - raw: "Viale Druso, 1 / Drususallee 1"
   - raw: "39100 Bolzano / Bozen - Italy"
-  - 'mailto:corpman@eurac.edu': "Email: corpman@eurac.edu"
+  - 'mailto:clarin@eurac.edu': "Email: clarin@eurac.edu"
 column2:
   header: "Repository"
   items:
@@ -13,7 +13,7 @@ column2:
   - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
   - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - '/repository/xmlui/page/about?locale-attribute=en': "About and Policies"
-  - 'mailto:corpman@eurac.edu': "Helpdesk"
+  - 'mailto:clarin@eurac.edu': "Helpdesk"
 column3:
   header: "More"
   items:
