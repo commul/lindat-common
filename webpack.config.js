@@ -24,7 +24,7 @@ var config = {
   VERSION: require('./package.json').version,
 
   GA_TRACKING_CODE: 'UA-27008245-2',
-  PIWIK_URL: '//lindat.mff.cuni.cz/piwik/', // include trailing slash
+  PIWIK_URL: '//commul.eurac.edu/piwik/', // include trailing slash
   REST_API: 'https://lindat.mff.cuni.cz/repository/rest',
   DEV_REST_API: 'https://ufal-point-dev.ms.mff.cuni.cz/repository/rest'
 };
@@ -32,7 +32,7 @@ var config = {
 var options = {
   DEBUG: argv.debug,
   publicPath: argv.debug ?
-    '/' : (argv.pages ? 'https://ufal.github.io/lindat-common/' : 'https://lindat.mff.cuni.cz/common/'),
+    '/' : (argv.pages ? 'https://ufal.github.io/lindat-common/' : 'https://clarin-dev.eurac.edu/repository/xmlui/themes/UFAL/lib/lindat/'),
   config: config,
   root: root,
   src: src,

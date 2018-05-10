@@ -2,29 +2,21 @@
 column1:
   header: "Partneři, koordinace, financování"
   items:
-  - 'http://www.kky.zcu.cz/en': "Katedra kybernetiky, Západočeská univerzita"
-  - 'http://ufal.mff.cuni.cz': "Ústav formální a aplikované lingvistiky (Praha)"
-  - 'http://www.ujc.cas.cz': "Ústav pro jazyk český (Praha)"
-  - 'http://nlp.fi.muni.cz': "Centrum zpracování přirozeného jazyka, Masarykova univerzita (Brno)"
-  - 'http://www.msmt.cz': "Ministerstvo školství, mládeže a tělovýchovy České republiky"
+  - 'http://www.eurac.edu/en': "Eurac Research"
+  - 'http://www.provinz.bz.it/innovation-forschung/innovation-forschung-universitaet/default.asp': "Autonomous Province of Bozen/Bolzano, South Tyrol, Department for the Promotion of Education, Universities and Research" 
+  - 'http://www.istruzione.it/': "Italian Ministry of Education, University and Research"
 column2:
   header: "Repozitář"
   items:
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=cs': "Hlavní stránka"
-  - 'https://lindat.mff.cuni.cz/cs/o-lindat-clarin': "Kontakty"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/item-lifecycle?locale-attribute=cs': "Fáze ukládání dat"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=cs': "Často kladené dotazy"
-  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=cs': "O projektu"
+  - 'https://lindat.mff.cuni.cz/repository/xmlui/?locale-attribute=en': "Main page"
+  - 'https://lindat.mff.cuni.cz/en/about-lindat-clarin': "Contact"
+  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
+  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
+  - 'https://lindat.mff.cuni.cz/repository/xmlui/page/about?locale-attribute=en': "About and Policies"
 column3:
   header: "Více"
   items:
-  - 'raw': <a href="https://lindat.mff.cuni.cz/en/clarin-knowledge-centre">CLARIN vědomostní centrum</a> | <a href="http://clarino.uib.no/iness/page?page-id=Getting_started">INESS</a>
   - 'http://www.clarin.eu/': "CLARIN"
-  - 'http://www.meta-net.eu/': "META-Net"
-  - 'https://lindat.mff.cuni.cz/cs/monitoring': "Status Služeb"
-  - 'https://lindat.mff.cuni.cz/cs/how-do-i-sign-up': "Jak se přihlásím"
-  - 'https://lindat.mff.cuni.cz/cs/podminky-pouzivani': "Podmínky používání"
+  - 'http://www.clarin-it.it/': "CLARIN-IT"
 footer:
-  - "Projekt LINDAT/CLARIN (LM2015071 a CZ.02.1.01/0.0/0.0/16_013/0001781; původně LM2010013) je plně podporován Ministerstvem školství,"
-  - "mládeže a tělovýchovy České republiky v rámci programu \"velkých infrastruktur\"."
-copyright: "Copyright (c) 2018 ÚFAL MFF UK. Všechna práva vyhrazena."
+copyright: "Copyright (c) 2017 Eurac Research, Institute for Applied Linguistics. All rights reserved."

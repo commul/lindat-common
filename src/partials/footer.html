@@ -17,9 +17,7 @@
   <div class="lindat-footer-main">
     <div class="lindat-footer-content lindat-container">
       <div class="lindat-footer-left">
-        <a class="lindat-clarinb-logo" href="http://hdl.handle.net/1839/00-DOCS.CLARIN.EU-99" title="Clarin B Center"> </a>
-        <a class="lindat-dsa-logo" href="https://assessment.datasealofapproval.org/assessment_92/seal/html" title="Data Seal of Approval"> </a>
-        <a class="lindat-clarink-logo" href="http://hdl.handle.net/1839/00-DOCS.CLARIN.EU-114" title="Clarin K Center"> </a>
+        <a class="eurac-logo" href="http://www.eurac.edu/en" title="Eurac Research"> </a>
       </div>
       <div class="lindat-footer-text">
         <div class="lindat-footer-text1">
@@ -33,8 +31,7 @@
         </div>
       </div>
       <div class="lindat-footer-right">
-        <a class="lindat-logo-mono" href="http://lindat.mff.cuni.cz/lindat/" title="LINDAT/CLARIN"> </a>
-        <a class="lindat-msmt-logo" href="http://www.msmt.cz/" title="MŠMT"> </a>
+        <a class="clarin-it-logo" href="http://www.clarin-it.it/" title="CLARIN IT"> </a>
       </div>
     </div>
   </div>
@@ -45,6 +42,7 @@
         <span>{{text}}</span>
         {%- if not loop.last -%}<br />{%- endif -%}
         {%- endfor -%}
+	<br />Based on <a href="https://github.com/ufal/clarin-dspace/">CLARIN DSpace</a>.
       </strong>
     </p>
     <p>{{copyright}}</p>
@@ -68,11 +66,10 @@
 
   <!-- Piwik LINDAT/CLARIN tracker -->
   <script type="text/javascript">
-    //<![CDATA[
     var _paq = _paq || [];
     _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-    _paq.push(["setCookieDomain", "*.mff.cuni.cz"]);
-    _paq.push(["setDomains", ["*.mff.cuni.cz"]]);
+    _paq.push(["setCookieDomain", "*.eurac.edu"]);
+    _paq.push(["setDomains", ["*.eurac.edu"]]);
     _paq.push(['setCustomVariable', 1, "source", "common-theme", "page"]);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
@@ -83,7 +80,6 @@
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
-    //]]>
   </script>
   <noscript><p><img src="{{PIWIK_URL}}piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
   <!-- End Piwik Code -->

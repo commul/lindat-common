@@ -1,5 +1,7 @@
 .PHONY: build
 
+VERSION=$(shell perl adjust-commul-version.pl)
+
 build:
 				@npm run build
 
@@ -11,6 +13,10 @@ run:
 				@echo "* open http://localhost:8080/webpack-dev-server/ *"
 				@echo "**************************************************"
 				@npm start
+
+commul-release:
+				@npm run build
+				@./node_modules/.bin/mversion $(VERSION)
 
 release:
 				@./node_modules/.bin/mversion patch

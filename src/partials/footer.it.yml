@@ -1,0 +1,22 @@
+---
+column1:
+  header: "Partners, Coordinazione, Funding"
+  items:
+  - 'http://www.eurac.edu/it': "Eurac Research"
+  - 'http://www.provincia.bz.it/innovazione-ricerca/innovazione-ricerca-universita/default.asp': "Provincia Autonoma Di Bolzano Alto Adige, Dipartimento della Innovazione, ricerca e università" 
+  - 'http://www.istruzione.it/': "Ministero dell'Istruzione dell'Università e della Ricerca"
+column2:
+  header: "Repository"
+  items:
+  - '/repository/xmlui/?locale-attribute=en': "Main page"
+  - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
+  - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
+  - '/repository/xmlui/page/about?locale-attribute=en': "About and Policies"
+  - 'mailto:clarin@eurac.edu': " Helpdesk"
+column3:
+  header: "More"
+  items:
+  - 'https://www.clarin.eu/': "CLARIN"
+  - 'http://www.clarin-it.it/': "CLARIN-IT"
+footer:
+        copyright: "Copyright (c) 2018 Eurac Research, Istituto di linguistica applicata. All rights reserved.\nBasato di CLARIN DSpace (https://github.com/ufal/clarin-dspace/)"
