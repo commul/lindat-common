@@ -9,10 +9,10 @@ column1:
 column2:
   header: "Repository"
   items:
-  - '/repository/xmlui/?locale-attribute=en': "Main page"
   - '/repository/xmlui/page/item-lifecycle?locale-attribute=en': "Submission Lifecycle"
   - '/repository/xmlui/page/faq?locale-attribute=en': "FAQ"
   - '/repository/xmlui/page/about?locale-attribute=en': "About and Policies"
+  - '/repository/xmlui/page/privacypolicy?locale-attribute=en': "Privacy Policy"
   - 'mailto:clarin@eurac.edu': "Helpdesk"
 column3:
   header: "More"
