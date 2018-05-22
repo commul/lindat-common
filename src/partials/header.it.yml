@@ -1,9 +1,5 @@
 ---
 menu:
-- href: 'http://clarin-it.it/'
-  class: clarin-it-logo-menu
-  id: lindat-clarin-it-item
-  text: CLARIN-IT
 - href: '/index.html'
   id: lindat-home-item
   text: Home

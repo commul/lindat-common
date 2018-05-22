@@ -1,9 +1,5 @@
 ---
 menu:
-- href: 'http://clarin-it.it/'
-  class: clarin-it-logo-menu
-  id: lindat-clarin-it-item
-  text: CLARIN-IT
 - href: 'http://www.eurac.edu/linguistics/'
   id: lindat-home-item
   text: Úvod
