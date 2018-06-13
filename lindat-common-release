@@ -1,0 +1,57 @@
+# set up local build environment
+nvm use stable
+npm install
+
+# run to test the change locally
+make run
+
+# commit the changes into commul-custom-devel
+git commit -a
+
+# change into releases branch
+git checkout commul-releases
+git merge commul-custom-devel
+
+# make a new release tag
+make commul-release
+
+# push the new tag
+git push --tags
+
+# copy the tag into the release branch
+
+export BRANCH=releases
+export COMMIT_MSG="Releasing version v1.5.1-a"
+
+cp -u *.md dist/
+cp -u *.json dist/
+cd dist
+
+# Fix paths for main files
+sed -i 's|dist/public/|public/|m' bower.json
+sed -i 's|dist/public/|public/|m' package.json
+
+git init
+
+touch .
+
+git remote add origin "git@github.com:commul/lindat-common.git"
+# Fetch remote refs to a specific branch, equivalent to a pull without checkout
+git fetch --update-head-ok origin $BRANCH:master
+# Make the current working tree the branch HEAD without checking out files
+git symbolic-ref HEAD refs/heads/master
+# Make sure the stage is clean
+
+# Track edge branch
+git branch --set-upstream-to=origin/$BRANCH master
+
+# Check if there are things to commit and then commit
+git status --porcelain
+
+git add -A .
+git commit -m "$COMMIT_MSG"
+git push origin master:$BRANCH
+
+# go back to working branch
+cd ..
+git checkout commul-custom-devel
